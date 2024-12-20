@@ -25,8 +25,10 @@ font-size:3.13rem; font-weight:700; line-height:1.3; letter-spacing:-0.02rem;
 font-size:3.13rem; font-weight:500; line-height:1.3; letter-spacing:-0.02rem;
 ### 부제목 40 (t)
 font-size:2.5rem; font-weight:500; line-height:1.2; letter-spacing:-0.01rem;
+### 소제목 30 (t)
+font-weight:700; font-size:1.88rem; line-height:1.2;
 ### 내용 16 (t)
-line-height:1.7;
+line-height:1.7; font-size:1.0rem;
 ### 내용강조 22 (t)
 font-weight:700; font-size:1.38rem;  line-height:1.2;
 ### 내용강조 22 regular (t)

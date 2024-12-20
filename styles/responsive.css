@@ -34,6 +34,11 @@
     #wrap .bg4 .contents h2+p,
     #wrap .bg6 .contents h2+p {font-size:1.38rem; margin:40px 0;}
     /* ==========================================5행 반응형디자인(tablet) */
+    #wrap .bg5 .contents h2 {font-size:2.5rem}
+    #wrap .bg5 .contents > p {font-size:1.0rem;}
+    #wrap .bg5 .contents ul li .title h3 {font-size:1.88rem;}
+    #wrap .bg5 .contents ul li .title p {font-size:1.0rem;}
+    #wrap .bg5 .contents ul li .content {font-size:1.0rem;}
     /* ==========================================7행 반응형디자인(tablet) */
     /* ==========================================8행 반응형디자인(tablet) */
     /* ==========================================9행 반응형디자인(tablet) */
@@ -97,10 +102,19 @@
     #wrap .bg6 .contents h2 span {font-size:1.56rem;}
     #wrap .bg4 .contents h2+p,
     #wrap .bg6 .contents h2+p {font-size:0.94rem;}
-    #wrap .bg4 .contents .img img {height:400px;}
-    #wrap .bg6 .contents .img img {height:500px;}
-
+    #wrap .bg4 .contents .img img,
+    #wrap .bg6 .contents .img img {height:400px;}
     /* ==========================================5행 반응형디자인(mobile) */
+    #wrap .bg5 {padding:100px 0;}
+    #wrap .bg5 .contents h2 {font-size:1.56rem;}
+    #wrap .bg5 .contents > p {font-size:0.81rem;}
+    #wrap .bg5 .contents ul {flex-flow:column nowrap;}
+    #wrap .bg5 .contents ul li {width:100%;}
+    #wrap .bg5 .contents ul li:nth-child(2) {margin:0 30px;}
+    #wrap .bg5 .contents ul li .title {height:250px;}
+    #wrap .bg5 .contents ul li .title h3 {font-size:1.13rem;}
+    #wrap .bg5 .contents ul li .title p {font-size:0.81rem;}
+    #wrap .bg5 .contents ul li .content {height:106px; font-size:0.81rem;}
     /* ==========================================7행 반응형디자인(mobile) */
     /* ==========================================8행 반응형디자인(mobile) */
     /* ==========================================9행 반응형디자인(mobile) */
