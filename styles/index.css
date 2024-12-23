@@ -23,9 +23,8 @@
     color:#fff; border-radius:50px; padding:15px 70px;  
     font-size:2.13rem; line-height:1.2; font-weight:700;
 }
-#wrap .container .sponsor_btn:hover { /* 마우스올렸을때 변하는 (활성화) 상태선택자 */
-    background:linear-gradient(-90deg,#FE9300,#FF7300);
-}
+/* 마우스올렸을때 변하는 (활성화) 상태선택자 */
+#wrap .container .sponsor_btn:hover { background:linear-gradient(-90deg,#FE9300,#FF7300);}
 #wrap .container .sponsor_btn img {
     width:32px; position:relative; top:3px;
 }
